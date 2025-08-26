@@ -8,6 +8,7 @@ import {
   Plus,
   ArrowUpRight 
 } from 'lucide-react';
+import APIConnectionTest from '../components/common/APIConnectionTest';
 
 const Dashboard = () => {
   // Datos mock para demo (después conectaremos con la API real)
@@ -248,6 +249,9 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+
+      {/* API Connection Test */}
+      <APIConnectionTest />
     </div>
   );
 };
